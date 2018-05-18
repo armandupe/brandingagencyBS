@@ -2,50 +2,26 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Адаптивный макет</title>
+  <title>Адаптивный</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <style>
-   [class*="col-"] {
-    background-color: #636363;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    
-   }
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="fonts/pe-icon-7-stroke.css">
 
-   .container {
-    width: 100%;
-   }
-
-  .header__h3 h3 {
-    font-size: 20px;
-    margin-bottom: -22px;
-
-  }
-
-  .header__h1 h1 {
-    margin-top: -5px;
-  }
-
-   .header__h2 h2 {
-    margin-top: -15px;
-  }
-  </style>
  </head>
- <body>
-  
+ <body>  
 <div class="container">
-<div class="row">
-  <div class="col-lg-12">
+
+ <div class="row">
+  <div class="header col-lg-12">
      <div class="col-lg-1">
-       <div class="logo"><img src="images/logo-light.png"></div>
+       <div class="header__logo"><a href=""><img src="images/logo-light.png"></a></div>
       </div> 
       <div class="col-lg-1 col-lg-offset-10">
-       <div class="logo">MENU</div>
+       <span class="pe-7s-menu" style="font-size: 64px"></span>
       </div> 
 
+      <div class="header__container">
       <div class="col-lg-2 col-lg-offset-5">
         <div class="header__h3">
           <h3>NEW BRANDING AGENCY</h3>
@@ -60,18 +36,223 @@
 
       <div class="col-lg-4 col-lg-offset-4">
         <div class="header__h2">
-          <h2>You publish on web</h2>
+          <h2>you publish on web</h2>
         </div>
+      </div>
       </div>
 
       <div class="col-lg-2 col-lg-offset-5">
-      <p>CIRCLE</p>
+      <span class="pe-7s-angle-down-circle" style="font-size: 64px"></span>
       </div>
    </div>
+ </div>
 
-  
+ <div class="row">
+   <div class="about">
+   <div class="col-lg-4 col-lg-offset-4">
+        <h2>About Our Agency</h2>
+   </div>
 
-</div>
+    <div class="col-lg-8 col-lg-offset-2">
+    <div class="about__p">
+        <p>We are a new design studio based in USA. We have over 20 years of combined experience, and know <br> a thing or two about designing websites and mobile apps. Clever use of technology <br> and lean processes enable us to work faster and smarter</p>
+    </div>
+   </div>
+
+   <div class="col-lg-2 col-lg-offset-5">
+        <img src="images/about-me-signature.png">
+   </div>
+   </div>
+ </div>
+
+ <div class="row">
+  <div class="statistics">
+    <div class="col-lg-12">
+      <div class="col-lg-3">
+        <div class="statistics__projectsValue">
+          <span class="pe-7s-portfolio" style="font-size: 54px;"></span>
+        <p>548</p>
+        </div>
+        <p class="statistics__projects">PROJECTS COMPLETED</p>
+      </div>
+      <div class="col-lg-3">
+        <div class="statistics__workingHoursValue">
+          <span class="pe-7s-clock" style="font-size: 54px;"></span>
+        <p>1465</p>
+        </div>
+        <p class="statistics__workingHours">WORKING HOURS</p>
+      </div>
+      <div class="col-lg-3">
+        <div class="statistics__feedbacksValue">
+          <span class="pe-7s-star" style="font-size: 54px;"></span>
+        <p>612</p>
+        </div>
+        <p class="statistics__feedbacks">POSITIVE FEEDBACKS</p>
+      </div>
+      <div class="col-lg-3">
+        <div class="statistics__clientsValue">
+          <span class="pe-7s-like" style="font-size: 54px;"></span>
+        <p>735</p>
+        </div>
+        <p class="statistics__clients">HAPPY CLIENTS</p>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="row">
+  <div class="bestProjects">
+     <div class="col-lg-12">
+      <div class="col-lg-4 col-lg-offset-4">
+        <h2>Best Projects</h2>
+      </div>
+
+      <div class="col-lg-8 col-lg-offset-2">
+       <div class="bestProjects__p">
+        <p>Lorem ipsum dolor sit amet, cpisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore <br> magnminim veniam,
+        quis nostrud ext cupidam.</p>
+       </div>
+      </div>
+
+      <div class="col-lg-4">
+        <img src="images/bestproj/bag.jpg">
+        <img src="images/bestproj/tshirt.jpg">
+        <img src="images/bestproj/cards1.jpg">
+      </div>
+
+      <div class="col-lg-4">
+        <img src="images/bestproj/cards.jpg">
+        <img src="images/bestproj/vynil.jpg">
+        <img src="images/bestproj/tshirt1.jpg">
+      </div>
+
+      <div class="col-lg-4">
+        <img src="images/bestproj/smartphone.jpg">
+        <img src="images/bestproj/bag1.jpg">
+        <img src="images/bestproj/magazine.jpg">
+      </div>
+
+      </div>
+  </div>
+ </div>
+
+ <div class="row">
+  <div class="quote">
+    <div class="col-lg-12">
+      <div class="col-lg-8 col-lg-offset-2">
+        <p><q>Outstanding job exceeded all expectations. It was a pleasure <br>
+          to work with them on a sizable first project and am looking <br>
+          forward to start the next one asap.</q></p>
+        <p>MICHAEL HOPKINS</p>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="row">
+  <div class="vintageLogos">
+    <div class="col-lg-12">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-2 col-lg-offset-2"></div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-2"></div>
+        
+      
+    </div>
+  </div>
+ </div>
+
+ <div class="row">
+  <div class="latestBlog">
+
+    <div class="col-lg-12">
+      <div class="col-lg-4 col-lg-offset-4">
+      <h2>Latest Blog</h2>
+      </div>
+      <div class="col-lg-8 col-lg-offset-2">
+        <p>Lorem ipsum dolor sit amet, cpisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore <br> magnminim veniam,
+        quis nostrud ext cupidam</p>
+      </div>
+    </div>
+
+    <div class="col-lg-12">
+
+      <div class="col-lg-4">
+        <div class="latestBlog__blog">
+        <a href=""><img src="images/latestblog/1.jpg"></a>
+        <button class="latestBlog__Button"><a href=""><p>NATURE</p></a></button>
+        <h3>Something I Need To Tell You</h3>
+        <span>May 18 2018</span>
+        <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod <br>
+        tempor incididunt ut labore et dolor</p>
+        </div>
+      </div>
+     
+      <div class="col-lg-4">
+        <div class="latestBlog__blog">
+        <a href=""><img src="images/latestblog/2.jpg"></a>
+        <button class="latestBlog__Button"><a href=""><p>STRAND</p></a></button>
+        <h3>Are You Doing The Right Way?</h3>
+        <span>May 28 2018</span>
+        <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod <br>
+        tempor incididunt ut labore et dolor</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="latestBlog__blog">
+        <a href=""><img src="images/latestblog/3.jpg"></a>
+        <button class="latestBlog__Button"><a href=""><p>DESIGN</p></a></button>
+        <h3>Why You Should Always First?</h3>
+        <span>June 06 2018</span>
+        <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod <br>
+        tempor incididunt ut labore et dolor</p>
+        </div>
+      </div>
+
+  </div>
+ </div>
+
+ <div class="row"> 
+  <div class="contact">
+    <div class="col-lg-12">
+      <div class="col-lg-5">
+        <h2>Contact Info:</h2>
+        <p>Lorem  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+        tempor incididunt ut labore et dol ipsum dolor sit amet, consectetur adipisicing elit,
+        tempor incididunt ut labore et dol</p>
+        <span>Address:</span><p>10111 Santa Monica Boulevard, LA</p>
+        <span>Phone:</span><p>+44 987 065 908</p>
+        <span>Email:</span><p>Info@Example.com</p>
+        <span>Fax:</span><p>+44 987 065 909</p>
+      </div>
+      <div class="col-lg-7">
+        <form>
+          <input type="" name="" placeholder="Your Name">
+          <input type="" name="" placeholder="Your Email">
+          <input type="" name="" placeholder="Your Title">
+          <textarea placeholder="Your Comment"></textarea>
+          <button><a href="">SEND MESSAGE</a></button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
 </div>
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
