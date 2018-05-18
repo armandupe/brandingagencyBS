@@ -1,0 +1,27 @@
+@font-face {
+    font-family: FontAwesome; /* Имя шрифта */
+    src: url(fonts/FontAwesome.otf); /* Путь к файлу со шрифтом */
+    src: url(fonts/fontawesome-webfont.eot);
+    src: url(fonts/fontawesome-webfont.svg);
+    src: url(fonts/fontawesome-webfont.ttf);
+    src: url(fonts/fontawesome-webfont.woff);
+    src: url(fonts/fontawesome-webfont.woff2);
+   }
+
+@font-face {
+	font-family: glyphicons-halflings-regular;
+	src: url(fonts/glyphicons-halflings-regular.eot);
+	src: url(fonts/glyphicons-halflings-regular.svg);
+	src: url(fonts/glyphicons-halflings-regular.ttf);
+	src: url(fonts/glyphicons-halflings-regular.woff);
+	src: url(fonts/glyphicons-halflings-regular.woff2);
+}
+
+@font-face {
+	font-family: Pe-icon-7-stroke;
+	src: url(fonts/Pe-icon-7-stroke.eot);
+	src: url(fonts/Pe-icon-7-stroke.svg);
+	src: url(fonts/Pe-icon-7-stroke.ttf);
+	src: url(fonts/Pe-icon-7-stroke.woff);
+	
+}
