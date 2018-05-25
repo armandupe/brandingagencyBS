@@ -1,2 +1,3 @@
 # brandingagencyBS
-psd template using bootstrap framework
+One Page Agency(psd template)
+Bootstrap grid used
