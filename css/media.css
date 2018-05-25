@@ -1,0 +1,216 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width: 1281px) {
+
+.fixed-header {
+	margin-top: -1%;
+}
+
+nav ul li{
+	padding: 4% 5% 0 0;
+
+}
+
+.header__h3 h3 {
+	font-size: 16px;
+	width: 300%;
+	position: relative;
+	left: -90%;
+	margin-top: 60%;
+}
+
+
+
+.statistics__projectsValue p,
+.statistics__workingHoursValue p,
+.statistics__feedbacksValue p,
+.statistics__clientsValue p {
+	
+	left: -18%;
+	
+
+}
+
+.statistics__projects,
+.statistics__workingHours,
+.statistics__feedbacks,
+.statistics__clients {
+	font-size: 16px;
+}
+
+.statistics__projects {
+	left: -15%;
+	width: 200%;
+}
+
+
+.statistics__workingHours
+{
+	width: 200%;
+	left: -34%;
+}
+
+.statistics__feedbacks {
+	width: 200%;
+	left: -19%;
+}
+
+.statistics__clients {
+	width: 200%;
+	left: -34%;
+}
+
+.bestproj__img-name1 h3,
+.bestproj__img-name2 h3,
+.bestproj__img-name3 h3,
+.bestproj__img-name4 h3,
+.bestproj__img-name5 h3,
+.bestproj__img-name6 h3,
+.bestproj__img-name7 h3,
+.bestproj__img-name8 h3,
+.bestproj__img-name9 h3 {
+	font-size: 40px;
+}
+
+.bestproj__img-name1 p,
+.bestproj__img-name2 p,
+.bestproj__img-name3 p,
+.bestproj__img-name4 p,
+.bestproj__img-name5 p,
+.bestproj__img-name6 p,
+.bestproj__img-name7 p,
+.bestproj__img-name8 p,
+.bestproj__img-name9 p {
+	font-size: 22px;
+	
+}
+
+#slider_container {
+	height: 210px;
+}
+
+
+.latestBlog {
+	height: 850px;
+}
+
+
+.latestBlog__blog {
+	height: 450px;
+	
+
+}
+
+.latestBlog__Button {
+	top: 45%;
+	width: 30%;
+}
+
+.latestBlog__blog span {
+		left: -36%;
+	
+}
+
+.contact__contacts ul {
+	
+	left: 8%;
+}
+
+input[type ="submit"] {
+		width: 30%;
+	}
+
+
+
+.twitter__icon {
+	
+	left: -37%;
+	
+}
+
+
+
+.google__icon {
+	
+	left: -25%;
+	
+}
+
+.behance__icon {
+	
+	left: -13%;
+	
+}
+
+.pinterest__icon {
+	
+	left: -3%;
+	
+}
+
+.instagram__icon {
+	
+	left: 7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
