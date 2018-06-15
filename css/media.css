@@ -1,14 +1,12 @@
 /*==========  Desktop First Method  ==========*/
 
 @media only screen and (max-width: 1920px) {
-	.header__h3 {
-	width: 220%;
-}
 
-.header__h3 h3 {
+
+/*.header__h3 h3 {
     left: -23%;
     position: relative;
- }
+ }*/
 
 
 }
@@ -17,25 +15,24 @@
 
 .header {
 	background-size: contain;
-	height: 1000px;
+	height: 57vw;
 }
 
-.fixed-header {
-	margin-top: -1%;
+
+.header__logo img {
+	margin-top: 5%;
+	width: 40%;
+	height: 40%;
 }
 
 nav ul li{
-	padding: 4% 5% 0 0;
-
-}
-
-.header__container {
-	margin-top: 6%;
+	padding: 6% 5% 0 0;
 
 }
 
 
-.header__h3 h3 {
+
+/*.header__h3 h3 {
 	width: 220%;
 	font-size: 28px;
 	left: -83%;
@@ -51,52 +48,42 @@ nav ul li{
 
 .header__h2 h2 {
 	font-size: 36px;
-}
+}*/
 
 
-.about {
-	height: 10%;
+.statistics__projectsValue span,
+.statistics__workingHoursValue span,
+.statistics__feedbacksValue span,
+.statistics__clientsValue span {
+	left: -70%;
 	
-}
-
-.statistics__projectsValue p,
-.statistics__workingHoursValue p,
-.statistics__feedbacksValue p,
-.statistics__clientsValue p {
-	
-	left: -18%;
-	
-
 }
 
 .statistics__projects,
 .statistics__workingHours,
 .statistics__feedbacks,
 .statistics__clients {
-	font-size: 16px;
+	font-size: 1.5vh;
 }
 
 .statistics__projects {
-	left: -15%;
 	width: 200%;
+	left: -33%;
 }
 
 
-.statistics__workingHours
-{
+.statistics__workingHours,
+.statistics__clients {
 	width: 200%;
-	left: -34%;
+	left: -52%;
 }
 
 .statistics__feedbacks {
 	width: 200%;
-	left: -19%;
+	left: -36%;
 }
 
-.statistics__clients {
-	width: 200%;
-	left: -34%;
-}
+
 
 .bestproj__img-name1 h3,
 .bestproj__img-name1 p {
@@ -107,6 +94,14 @@ nav ul li{
 	margin-top: -10%;
 }
 
+.bestproj__img-name7 h3 {
+	margin-top: 2%;
+	margin-left: -5%;
+}
+
+.bestproj__img-name7 p {
+	margin-left: -5%;
+}
 
 .bestproj__img-name9 h3 {
 	margin-top: -2%;
@@ -115,6 +110,8 @@ nav ul li{
 .bestproj__img-name9 p {
 	margin-top: -1%;
 }
+
+
 
 .bestproj__img-name1 h3,
 .bestproj__img-name2 h3,
@@ -138,8 +135,17 @@ nav ul li{
 .bestproj__img-name8 p,
 .bestproj__img-name9 p {
 	font-size: 22px;
-	
 }
+
+
+.quote p:nth-child(1) {
+	font-size: 3vh;
+}
+
+.quote p:nth-child(2) {
+	font-size: 1.7vh;
+}
+
 
 #slider_container {
 	height: 250px;
@@ -153,22 +159,17 @@ nav ul li{
 
 .latestBlog__blog {
 	height: 450px;
-	
-
 }
 
 .latestBlog__Button {
-	top: 45%;
-	width: 30%;
+	top: 80%;
 }
 
 .latestBlog__blog span {
-		left: -36%;
-	
+	left: -36%;
 }
 
 .contact__contacts ul {
-	
 	left: 8%;
 }
 
@@ -176,42 +177,27 @@ input[type ="submit"] {
 		width: 30%;
 	}
 
-
-
 .twitter__icon {
-	
 	left: -37%;
-	
 }
 
-
-
 .google__icon {
-	
 	left: -25%;
-	
 }
 
 .behance__icon {
-	
 	left: -13%;
-	
 }
 
 .pinterest__icon {
-	
 	left: -3%;
-	
 }
 
 .instagram__icon {
-	
 	left: 7%;
 }
 
-
 .footer__twits p::before {
-	
 	left: -61%;
 }
 
@@ -230,24 +216,25 @@ input[type ="submit"] {
 .instimg6,
 .instimg7,
 .instimg8 {
-	width: 80px;
-	height: 80px;
+	width: 8vh;
+	height: 8vh;
 	
 }
 
 .instagram_container {
-	
-	left: -6%;
+	left: -3%;
 }
 
 
+.footer_copyright {
+	margin-top: -15%;
+	margin-bottom: -10%;
 
 }
 
-
+}
 
 @media only screen and (max-width : 992px) {
-
 
 .header {
 	height: 800px;
@@ -261,11 +248,11 @@ nav ul li{
 
 }
 
-.header__h3 h3 {
+/*.header__h3 h3 {
     font-size: 26px;
     margin-top: 200px;
     margin-left: -60px;
-      }
+      }*/
 
 
 
@@ -568,16 +555,14 @@ textarea {
 	
 }
 
-.fixed-header {
-	margin-top: -2%;
-}
+
 
 nav ul li{
 	padding: 0 5% 0 0;
 
 }
 
-.header__h3 h3 {
+/*.header__h3 h3 {
     font-size: 23px;
     margin-top: 110px;
     margin-left: -60px;
@@ -590,7 +575,7 @@ nav ul li{
 
 .header__h2 h2 {
 	font-size: 37px;
-}
+}*/
 
 .about {
 	margin-top: -350px;
@@ -871,16 +856,10 @@ nav ul li{
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-.fixed-header {
-	margin-top: -2%;
-	height: 8%;
-}
 
 
-.header__logo a img{
-	width: 80px;
-	height: 30px;
-}
+
+
 
 
 nav ul {
@@ -888,7 +867,7 @@ nav ul {
 }
 
 
-.header__h3 h3 {
+/*.header__h3 h3 {
     font-size: 18px;
     margin-bottom: -20px;
     margin-top: 50px;
@@ -903,7 +882,7 @@ nav ul {
 .header__h2 h2 {
     margin-top: -40px;
     font-size: 22px;
-  }
+  }*/
 
 
 .about h2{
@@ -1227,15 +1206,11 @@ input[type ="submit"] {
 @media only screen and (max-width : 320px) {
 
 
-.fixed-header {
-	margin-top: -3%;
-	height: 7%;
-}
+
 
 
 .header__logo a img{
-	width: 80px;
-	height: 30px;
+	
 	position: relative;
 	left: -38%;
 }
@@ -1250,11 +1225,9 @@ nav ul {
 	margin-bottom: -60px;
 }
 
-.header__container {
-	margin-top: 10%;
-}
 
-.header__h3 h3 {
+
+/*.header__h3 h3 {
     font-size: 12px;
     margin-bottom: -20px;
     margin-top: 30px;
@@ -1268,7 +1241,7 @@ nav ul {
 
 .header__h2 h2 {
     font-size: 16px;
-  }
+  }*/
 
 
 .about h2{
