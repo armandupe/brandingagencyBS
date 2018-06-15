@@ -11,14 +11,17 @@
     overflow-x: hidden;
    }
 
+
+
 .header {
-	height: 1600px;
+	height: 115vh;
 	background: url(../images/office.jpg) no-repeat;
 }
 
 .fixed-header {
 	position: fixed;
 	width: 100%;
+	height: 8%;
 	background: rgba(204,204,204,0.51);
 	background: -webkit-gradient(left top, left bottom, color-stop(32%, rgba(204,204,204,0.51)), color-stop(49%, rgba(201,201,201,0.51)), color-stop(78%, rgba(196,196,196,0.83)), color-stop(94%, rgba(221,221,221,1)), color-stop(100%, rgba(230,230,230,1)));
 	background: -webkit-linear-gradient(top, rgba(204,204,204,0.51) 32%, rgba(201,201,201,0.51) 49%, rgba(196,196,196,0.83) 78%, rgba(221,221,221,1) 94%, rgba(230,230,230,1) 100%);
@@ -27,17 +30,23 @@
 	background: linear-gradient(to bottom, rgba(204,204,204,0.51) 32%, rgba(201,201,201,0.51) 49%, rgba(196,196,196,0.83) 78%, rgba(221,221,221,1) 94%, rgba(230,230,230,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#e6e6e6', GradientType=0 );
 	z-index: 100;
-	margin-top: -.6%;
+	top: -1%;
 	-webkit-box-shadow: 0px 3px 30px 3px;
 	        box-shadow: 0px 3px 30px 3px;
 
+}
+
+.header__logo img {
+	padding: 2%;
+	width: 30%;
+	height: 30%;
 }
 
 nav ul li{
 	display: inline-block;
 	list-style: none;
 	font-weight: bold;
-	padding: 2.5% 10% 0 0;
+	padding: 3.5% 10% 0 0;
 	color: #000;
 }
 
@@ -51,8 +60,11 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 
+.header__container {
+	margin-top: 23%;
+}
 
-.header__logo,
+
 .header__h1,
 .header__h2,
 .header__h3 {
@@ -70,7 +82,7 @@ nav ul li a:hover {
 
 
 .header__h1 h1 {
-    margin-top: -5px;
+    margin-top: -25px;
     font-size: 4vw;
  }
 
@@ -81,40 +93,17 @@ nav ul li a:hover {
  }
 
 
-.header__logo a img{
-	width: 120px;
-	height: 50px;
-}
-
-.header__container {
-	margin-top: 23%;
-
-}
-
-.pe-7s-angle-down-circle:before {
-    content: "\e689";
-    cursor: pointer;
-}
-
-.pe-7s-menu:before {
-	content: "\e636";
-	cursor: pointer;
-}
-
 .about {
-	height: 40%;
-	padding-top: -2%;
-	margin-top: -22%;
 	font-family: FontAwesome;
 }
 
 .about h2{
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 6vh;
 }
 
 .about__p p {
-	font-size: 20px;
+	font-size: 2vh;
 }
 
 
@@ -124,7 +113,7 @@ nav ul li a:hover {
 	color: #fff;
 	font-family: FontAwesome;
 	font-weight: bold;
-	font-size: 19px;
+	font-size: 2vh;
 }
 
 
@@ -146,15 +135,14 @@ nav ul li a:hover {
 .statistics__workingHoursValue span,
 .statistics__feedbacksValue span,
 .statistics__clientsValue span {
-	display: inline-block;
 	position: relative;
 	left: -60%;
-	top: 55px;
+	top: 6vh;
 }
 
 .statistics__projects {
 	position: relative;
-	left: 5%;
+	left: 4%;
 }
 
 .statistics__workingHours,
@@ -165,13 +153,12 @@ nav ul li a:hover {
 
 .statistics__feedbacks {
 	position: relative;
-	left: 2%;
+	left: 1%;
 }
 
 .bestProjects {
 	height: 1300px;
 	font-family: FontAwesome;
-	
 }
 
 
@@ -196,31 +183,31 @@ nav ul li a:hover {
 .bestproj__img-name4 {
 	position: absolute;
 	top: 20%;
-	left: 20%;
+	left: 22%;
 }
 
 .bestproj__img-name5 {
 	position: absolute;
 	top: 58%;
-	left: 22%;
+	left: 24%;
 }
 
 .bestproj__img-name6 {
 	position: absolute;
 	top: 82%;
-	left: 22%;
+	left: 24%;
 }
 
 .bestproj__img-name7 {
 	position: absolute;
 	top: 8%;
-	left: 8%;
+	left: 10%;
 }
 
 .bestproj__img-name8 {
 	position: absolute;
 	top: 45%;
-	left: 25%;
+	left: 26%;
 }
 
 .bestproj__img-name9 {
@@ -239,7 +226,7 @@ nav ul li a:hover {
 .bestproj__img-name7 h3,
 .bestproj__img-name8 h3,
 .bestproj__img-name9 h3 {
-	font-size: 4em;
+	font-size: 6vh;
 	font-weight: bold;
 	opacity: 0;
 }
@@ -253,7 +240,7 @@ nav ul li a:hover {
 .bestproj__img-name7 p,
 .bestproj__img-name8 p,
 .bestproj__img-name9 p {
-	font-size: 2em;
+	font-size: 3vh;
 	opacity: 0;
 }
 
@@ -356,7 +343,7 @@ nav ul li a:hover {
 }
 
 .bestProjects__p {
-	font-size: 18px;
+	font-size: 2vh;
 }
 
 .quote {
@@ -367,14 +354,14 @@ nav ul li a:hover {
 }
 
 .quote p:nth-child(1) {
-	font-size: 32px;
+	font-size: 3.5vh;
 	font-style: italic;
 	padding-top: 8%;
 
 }
 
 .quote p:nth-child(2) {
-	font-size: 18px;
+	font-size: 2vh;
 	padding-top: 2%;
 }
 
@@ -395,10 +382,6 @@ nav ul li a:hover {
 	cursor: -webkit-grabbing;
 }
 
-.vintageLogos img {
-	height: 250px;
-}
-
 .latestBlog {
 	height: 1000px;
 	background: #F6F6F6;
@@ -408,11 +391,11 @@ nav ul li a:hover {
 .latestBlog h2 {
 	padding-top: 10%;
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 5vh;
 }
 
 .latestBlog p {
-	font-size: 22px;
+	font-size: 2.5vh;
 }
 
 .latestBlog__blog {
@@ -421,13 +404,18 @@ nav ul li a:hover {
 	position: relative;
 }
 
-.latestBlog__blog img {
+
+.latestBlog__blog-imgButton img{
 	width: 100%;
+}
+
+.latestBlog__blog-imgButton {
+	position: relative;
 }
 
 .latestBlog__Button {
 	position: absolute;
-	top: 55%;
+	top: 85%;
 	left: 5%;
 	background: #000;
 	width: 18%;
@@ -520,7 +508,7 @@ nav ul li a:hover {
 
 
 .contact h2 {
-	font-size: 50px;
+	font-size: 6vh;
 	font-weight: bold;
 	text-align: left;
 	padding-bottom: 5%;
@@ -528,13 +516,12 @@ nav ul li a:hover {
 
 .contact p {
 	text-align: left;
-	font-size: 20px;
+	font-size: 2.2vh;
 }
 
 .contact__contacts ul {
 	position: relative;
 	left: 11%;
-	top: -3px;
 	margin-top: 4%;
 }
 
@@ -542,13 +529,13 @@ nav ul li a:hover {
 	display: block;
 	position: relative;
 	padding: 1%;
-	font-size: 20px;
+	font-size: 2.5vh;
 	left: -19%;
 	text-align: left;
 }
 
 form {
-	font-size: 18px;
+	font-size: 2vh;
 	padding-top: 3%;
 }
 
@@ -576,12 +563,12 @@ textarea {
 }
  
 textarea[placeholder = "Your Comment"] {
-	padding: 10px;
+	padding: 1%;
 }
 
 input {
 	margin-bottom: 2%;
-	padding: 15px;
+	padding: 1.7%;
 	border: none;
 }
 
@@ -614,11 +601,11 @@ input[type ="submit"]:hover {
 }
 
 .footer h3 {
-	font-size: 32px;
+	font-size: 4vh;
 }
 
 .footer p {
-	font-size: 16px;
+	font-size: 2vh;
 	padding-bottom: 3%;
 }
 
@@ -710,8 +697,8 @@ input[type ="submit"]:hover {
 }
 
 .instimg1 {
-	width: 100px;
-	height: 100px;
+	width: 11vh;
+	height: 11vh;
 	background: url(../images/instagram/1.jpg) 50% 50% no-repeat;
 	margin-right: 30px;
 	margin-bottom: 10px;
@@ -719,8 +706,8 @@ input[type ="submit"]:hover {
 }
 
 .instimg2 {
-	width: 100px;
-	height: 100px;
+	width: 11vh;
+	height: 11vh;
 	background: url(../images/instagram/2.jpg) 50% 50% no-repeat;
 	margin-right: 30px;
 	margin-bottom: 10px;
@@ -728,8 +715,8 @@ input[type ="submit"]:hover {
 }
 
 .instimg3 {
-	width: 100px;
-	height: 100px;
+	width: 11vh;
+	height: 11vh;
 	background: url(../images/instagram/3.jpg) 50% 50% no-repeat;
 	margin-right: 30px;
 	margin-bottom: 10px;
@@ -737,8 +724,8 @@ input[type ="submit"]:hover {
 }
 
 .instimg4 {
-	width: 100px;
-	height: 100px;
+	width: 11vh;
+	height: 11vh;
 	background: url(../images/instagram/4.jpg) 50% 50% no-repeat;
 	margin-right: 30px;
 	margin-bottom: 10px;
@@ -746,8 +733,8 @@ input[type ="submit"]:hover {
 }
 
 .instimg5 {
-	width: 100px;
-	height: 100px;
+	width: 11vh;
+	height: 11vh;
 	background: url(../images/instagram/5.jpg) 50% 50% no-repeat;
 	margin-right: 30px;
 	margin-bottom: 10px;
@@ -755,8 +742,8 @@ input[type ="submit"]:hover {
 }
 
 .instimg6 {
-	width: 100px;
-	height: 100px;
+	width: 11vh;
+	height: 11vh;
 	background: url(../images/instagram/6.jpg) 50% 50% no-repeat;
 	margin-right: 30px;
 	margin-bottom: 10px;
@@ -764,8 +751,8 @@ input[type ="submit"]:hover {
 }
 
 .instimg7 {
-	width: 100px;
-	height: 100px;
+	width: 11vh;
+	height: 11vh;
 	background: url(../images/instagram/7.jpg) 50% 50% no-repeat;
 	margin-right: 30px;
 	margin-bottom: 10px;
@@ -773,8 +760,8 @@ input[type ="submit"]:hover {
 }
 
 .instimg8 {
-	width: 100px;
-	height: 100px;
+	width: 11vh;
+	height: 11vh;
 	background: url(../images/instagram/8.jpg) 50% 50% no-repeat;
 	margin-right: 30px;
 	margin-bottom: 10px;
@@ -790,5 +777,6 @@ input[type ="submit"]:hover {
 	color: #fff;
 
 }
+
 
 
