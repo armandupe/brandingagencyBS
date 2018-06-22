@@ -1,4 +1,4 @@
-[class*="col-"] {
+ [class*="col-"] {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -10,8 +10,6 @@
     height: 100%;
     overflow-x: hidden;
    }
-
-
 
 .header {
 	height: 115vh;
@@ -33,7 +31,6 @@
 	top: -1%;
 	-webkit-box-shadow: 0px 3px 30px 3px;
 	        box-shadow: 0px 3px 30px 3px;
-
 }
 
 .header__logo img {
@@ -64,7 +61,6 @@ nav ul li a:hover {
 	margin-top: 23%;
 }
 
-
 .header__h1,
 .header__h2,
 .header__h3 {
@@ -72,14 +68,12 @@ nav ul li a:hover {
 	font-family: 'Playfair Display', serif;
 }
 
-
 .header__h3 h3 {
     font-size: 1.8vw;
     font-weight: bold;
     text-align: center;
     letter-spacing: .2em;
  }
-
 
 .header__h1 h1 {
     margin-top: -25px;
@@ -91,7 +85,6 @@ nav ul li a:hover {
     font-style: italic;
     font-size: 2.4vw;
  }
-
 
 .about {
 	font-family: FontAwesome;
@@ -106,7 +99,6 @@ nav ul li a:hover {
 	font-size: 2vh;
 }
 
-
 .statistics {
 	height: 200px;
 	background: #000;
@@ -115,7 +107,6 @@ nav ul li a:hover {
 	font-weight: bold;
 	font-size: 2vh;
 }
-
 
 .statistics p {
 	letter-spacing: .1em;
@@ -128,7 +119,6 @@ nav ul li a:hover {
 	position: relative;
 	left: -35%;
 	margin-bottom: -1%;
-
 }
 
 .statistics__projectsValue span,
@@ -244,8 +234,6 @@ nav ul li a:hover {
 	opacity: 0;
 }
 
-
-
 .bestproj__img img {
 	-webkit-transition-property: opacity;
 	-o-transition-property: opacity;
@@ -274,7 +262,6 @@ nav ul li a:hover {
 	opacity: 0.3;
 }
 
-
 .bestproj__img-name1 {
 	-webkit-transition-property: opacity;
 	-o-transition-property: opacity;
@@ -289,7 +276,6 @@ nav ul li a:hover {
 	     -o-transition-timing-function: linear;
 	        transition-timing-function: linear;
 }
-
 
 .bestproj__img h3 {
 	-webkit-transition-property: opacity;
@@ -308,7 +294,6 @@ nav ul li a:hover {
 
 .bestproj__img:hover h3 {
 	opacity: 1;
-
 }
 
 .bestproj__img p {
@@ -333,7 +318,6 @@ nav ul li a:hover {
  .bestProjects img {
 	margin-bottom: 25px;
 	width: 100%;
-	
 }
 
 .bestProjects h2 {
@@ -357,7 +341,6 @@ nav ul li a:hover {
 	font-size: 3.5vh;
 	font-style: italic;
 	padding-top: 8%;
-
 }
 
 .quote p:nth-child(2) {
@@ -615,8 +598,18 @@ input[type ="submit"]:hover {
 
 .footer__socials {
 	width: 100%;
-	height: 100%;
+	height: 150px;
+	margin-top: 5%;
+	margin-left: -20%;
 }
+
+.footer__socials ul li{
+	list-style: none;
+	display: inline-block;
+	width: 70px;
+	height: 50px;
+}
+
 
 .footer__twits p::before {
 	content: '';
@@ -633,8 +626,8 @@ input[type ="submit"]:hover {
 	background: url(../images/socials/facebook-logo.png) 50% 50% no-repeat;
 	display: inline-block;
 	position: relative;
-	left: -48%;
 }
+
 
 .twitter__icon {
 	width: 50%;
@@ -642,8 +635,6 @@ input[type ="submit"]:hover {
 	background: url(../images/socials/twitter.png) 50% 50% no-repeat;
 	display: inline-block;
 	position: relative;
-	left: -40%;
-	bottom: 38px;
 }
 
 .google__icon {
@@ -652,8 +643,6 @@ input[type ="submit"]:hover {
 	background: url(../images/socials/google-plus.png) 50% 50% no-repeat;
 	display: inline-block;
 	position: relative;
-	left: -31%;
-	bottom: 75px;
 }
 
 .behance__icon {
@@ -662,8 +651,6 @@ input[type ="submit"]:hover {
 	background: url(../images/socials/behance.png) 50% 50% no-repeat;
 	display: inline-block;
 	position: relative;
-	left: -22%;
-	bottom: 111px;
 }
 
 .pinterest__icon {
@@ -672,8 +659,6 @@ input[type ="submit"]:hover {
 	background: url(../images/socials/pinterest.png) 50% 50% no-repeat;
 	display: inline-block;
 	position: relative;
-	left: -15%;
-	bottom: 145px;
 }
 
 .instagram__icon {
@@ -682,8 +667,6 @@ input[type ="submit"]:hover {
 	background: url(../images/socials/instagram-logo.png) 50% 50% no-repeat;
 	display: inline-block;
 	position: relative;
-	left: -7%;
-	bottom: 185px;
 }
 
 
@@ -775,8 +758,8 @@ input[type ="submit"]:hover {
 	margin-top: -5%;
 	border-top: 3px solid #1E1E1E;
 	color: #fff;
-
 }
+
 
 
 
