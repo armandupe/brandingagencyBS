@@ -1,7 +1,3 @@
-
-
-
-
 @media only screen and (max-width: 1600px) {
 
 .latestBlog {
@@ -655,6 +651,29 @@ textarea {
 
 .footer__twits p::before {
 	left: -10em;
+}
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+
+nav ul li{
+	padding-right: 1%;
+	font-size: 1.7vw;
+}
+
+.latestBlog {
+	height: 76em;
+}
+
+.latestBlog__blog-imgButton button {
+	left: -6.9em;
+}
+
+.contact {
+	height: 39.3em;
 }
 
 }
