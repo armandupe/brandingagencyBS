@@ -278,20 +278,118 @@ input[name ="field2"] {
 
 @media only screen and (max-width: 720px) {
 
+.header__h3 h3 {
+    font-size: 2.6vw;
+ }
+
+.about h2 {
+	font-size: 4vw;
+}
+
+.about__p p {
+	font-size: 2.7vw;
+}
+
 .statistics {
-	height: 14em;
+	height: 23em;
+	font-size: 1em;
+}
+
+.bestProjects h2 {
+	font-size: 4vw;
+}
+
+.bestProjects__p {
+	font-size: 2.7vw;
+}
+
+.bestproj__img-name1,
+.bestproj__img-name2,
+.bestproj__img-name3,
+.bestproj__img-name4,
+.bestproj__img-name5,
+.bestproj__img-name6,
+.bestproj__img-name7,
+.bestproj__img-name8,
+.bestproj__img-name9 {
+	top: 40%;
+}
+
+
+
+.bestproj__img-name1 p,
+.bestproj__img-name2 p,
+.bestproj__img-name3 p,
+.bestproj__img-name4 p,
+.bestproj__img-name5 p,
+.bestproj__img-name6 p,
+.bestproj__img-name7 p,
+.bestproj__img-name8 p,
+.bestproj__img-name9 p {
+	font-size: 1.6vw;
 }
 
 .latestBlog {
-	height: 34.5em;
+	height: 160em;
 }
 
+.latestBlog h2 {
+	font-size: 4vw;
+}
+
+.latestBlog p {
+	font-size: 2.7vw;
+}
+
+
+.latestBlog__blog-imgButton button {
+	left: -41%;
+}
+
+.latestBlog__blog h3 {
+	font-size: 2em;
+}
+
+.latestBlog__blog p:nth-child(3) {
+	font-size: 1em;
+}
+
+.latestBlog__blog p:nth-child(4) {
+	font-size: 1.3em;
+}
+
+.contact {
+	height: 63em;
+}
+
+.contact h2 {
+	font-size: 4vw;
+}
+
+
 .contact__contacts li {
-	font-size: .9em;
+	font-size: 2.7vw;
+	margin-left: .1em;
+}
+
+.footer {
+	height: 81em;
+}
+
+.footer h3 {
+	font-size: 5vw;
+}
+
+.footer p {
+	font-size: 3vw;
+}
+
+.footer__twits p {
+	font-size: 3vw;
 }
 
 .footer__twits p::before {
-	left: -7.8em;
+	height: 68px;
 }
 
 
@@ -313,6 +411,10 @@ nav ul li{
 	padding-right: 1%;
 }
 
+.header__h3 h3 {
+    font-size: 2.6vw;
+ }
+
 .about h2 {
 	font-size: 5vw;
 }
@@ -323,8 +425,8 @@ nav ul li{
 
 
 .statistics {
-	font-size: 0.7vw;
-	height: 15em;
+	font-size: 2vw;
+	height: 24em;
 }
 
 
@@ -445,13 +547,29 @@ textarea {
 }
 
 .footer {
-	height: 42em;
+	height: 72.5em;
+}
+
+.footer h3 {
+	font-size: 6vw;
+}
+
+.footer p {
+	font-size: 3.3vw;
+}
+
+.footer__twits p {
+	font-size: 3.3vw;
 }
 
 .footer__twits p::before {
-	left: -10em;
+	height: 60px;
+	left: -9.5em;
 }
 
+.instagram_container {
+	padding-bottom: 2em;
+}
 
 
 
@@ -468,8 +586,8 @@ textarea {
 
 nav ul li{
 	top: 7px;
-	padding-right: .5%;
-	font-size: 2vw;
+	padding-right: 1%;
+	font-size: 1.8vw;
 	position: relative;
 }
 
