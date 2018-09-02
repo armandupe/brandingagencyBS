@@ -3,12 +3,12 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
-   }
+}
 
 .container {
     width: 100%;
     overflow-x: hidden;
-   }
+}
 
 .header {
 	height: 57vw;
@@ -360,14 +360,14 @@ nav ul li a:hover {
 	height: auto;
 }
 
+.latestBlog__blog-imgButton {
+	width: 100%;
+}
+
 .latestBlog__blog-imgButton img {
 	max-width: 100%;
 	height: auto;
 	margin-bottom: -1em;
-}
-
-.latestBlog__blog-imgButton {
-	width: 100%;
 }
 
 .latestBlog__blog-imgButton button {

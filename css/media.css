@@ -817,14 +817,26 @@ textarea {
 }
 
 .footer {
-	height: 57em;
+	height: 50em;
 }
 
 .footer__twits p::before {
 	left: -10em;
 }
 
+
+.footer__socials {
+	margin-bottom: -15%;	
 }
+
+.footer__twits {
+	margin-bottom: -15%;
+}
+
+
+}
+
+
 
 
 @media only screen and (max-width: 320px) {
@@ -846,5 +858,18 @@ nav ul li{
 .contact {
 	height: 39.3em;
 }
+
+.footer {
+	height: 46em;
+}
+
+.footer__socials {
+	margin-bottom: -15%;	
+}
+
+.footer__twits {
+	margin-bottom: -15%;
+}
+
 
 }
