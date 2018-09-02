@@ -1,7 +1,15 @@
 @media only screen and (max-width: 1600px) {
 
+nav ul li{
+	margin-top: 5%;
+}
+
 .latestBlog {
 	height: 60em;
+}
+
+.latestBlog__blog-imgButton button {
+	left: -41%;
 }
 
 }
@@ -9,9 +17,12 @@
 @media only screen and (max-width: 1500px) {
 
 .latestBlog {
-	height: 58em;
+	height: 55em;
 }
 
+.latestBlog__blog-imgButton button {
+	left: -41%;
+}
 
 }
 
@@ -21,6 +32,9 @@
 	height: 56em;
 }
 
+.latestBlog__blog-imgButton button {
+	left: -41%;
+}
 
 }
 
@@ -29,6 +43,10 @@
 
 nav ul li{
 	padding-right: 4%;
+}
+
+.latestBlog__blog-imgButton button {
+	left: -41%;
 }
 
 }
@@ -66,11 +84,28 @@ input[name ="field2"] {
 
 }
 
+@media only screen and (max-width: 1280px) {
+
+.latestBlog {
+	height: 49em;
+}
+
+.latestBlog__blog-imgButton button {
+	left: -41%;
+}
+
+}
+
 @media only screen and (max-width: 1223px) {
 
 .contact__contacts li {
 	font-size: 1.6em;
 }
+
+.latestBlog__blog-imgButton button {
+	left: -41%;
+}
+
 
 }
 
@@ -86,13 +121,21 @@ nav ul li{
 }
 
 .latestBlog {
-	height: 50em;
+	height: 47em;
+}
+
+.latestBlog__blog-imgButton button {
+	left: -40%;
 }
 
 }
 
 
 @media only screen and (min-width: 1100px) and (max-width: 1137px) {
+
+.latestBlog {
+	height: 45em;
+}
 
 .latestBlog__blog-imgButton button {
 	left: -40%;
@@ -106,6 +149,10 @@ nav ul li{
 }
 
 @media only screen and (max-width: 1100px) {
+
+.latestBlog {
+	height: 45em;
+}
 
 .latestBlog__blog-imgButton button {
 	left: -40%;
@@ -156,6 +203,12 @@ nav ul li{
 	font-size: 1.3em;
 }
 
+.footer__twits p::before {
+	width: 100%;
+	height: 30px;
+	left: -9.5em;
+}
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -185,11 +238,11 @@ nav ul li{
 }
 
 .footer h3 {
-	font-size: 2em;`
+	font-size: 2em;
 }
 
 .footer p {
-	font-size: .9em;`
+	font-size: .9em;
 }
 
 }
@@ -201,7 +254,7 @@ nav ul li{
 }
 
 .latestBlog {
-	height: 40em;
+	height: 38em;
 }
 
 .latestBlog__blog h3 {
