@@ -301,8 +301,10 @@ input[name ="field2"] {
 
 @media only screen and (max-width: 768px) {
 
+
+
 .quote {
-		height: 11em;
+	height: 11em;
 }
 
 .latestBlog__blog-imgButton button {
@@ -455,6 +457,12 @@ input[name ="field2"] {
 	
 }
 
+}
+
+@media only screen and (max-width: 650px) {
+	nav ul li {
+		font-size: 1.8vw;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -640,7 +648,6 @@ textarea {
 nav ul li{
 	top: 7px;
 	padding-right: 1%;
-	font-size: 1.8vw;
 	position: relative;
 }
 
