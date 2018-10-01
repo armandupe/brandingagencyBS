@@ -102,9 +102,20 @@ nav ul li{
 }
 
 .latestBlog {
-	height: 47em;
+	height: 48em;
 }
 
+.latestBlog__blog h3 {
+	font-size: 1.4em;
+}
+
+.latestBlog__blog p {
+	font-size: 1em;
+}
+
+.footer {
+	height: 31em;
+}
 
 }
 
@@ -112,7 +123,7 @@ nav ul li{
 @media only screen and (min-width: 1100px) and (max-width: 1137px) {
 
 .latestBlog {
-	height: 45em;
+	height: 49em;
 }
 
 
@@ -121,7 +132,7 @@ nav ul li{
 @media only screen and (max-width: 1100px) {
 
 .latestBlog {
-	height: 45em;
+	height: 49em;
 }
 
 }
@@ -132,9 +143,12 @@ nav ul li{
 	height: 15em;
 }
 
-.latestBlog {
-	height: 44em;
+.latestBlog__blog h3 {
+	font-size: 1.2em;
+	padding-top: 3%;
 }
+
+
 
 .contact {
 	height: 35em;
@@ -166,9 +180,7 @@ nav ul li{
 	height: 13em;
 }
 
-.latestBlog {
-	height: 41em;
-}
+
 
 .contact {
 	height: 37em;
@@ -195,8 +207,12 @@ nav ul li{
 @media only screen and (max-width: 866px) {
 
 
-.latestBlog {
-	height: 38em;
+.latestBlog__blog h3 {
+	font-size: 1em;
+}
+	
+.latestBlog__blog p {
+	font-size: .8em;
 }
 
 
@@ -218,14 +234,14 @@ input[name ="field2"] {
 	height: 13em;
 }
 
+.latestBlog {
+	height: 42em;
+}
 
 }
 
 @media only screen and (max-width: 800px) {
 
-.latestBlog {
-	height: 38em;
-}
 
 .contact__contacts li {
 	font-size: 1.1em;
@@ -296,19 +312,20 @@ input[name ="field2"] {
 }
 
 .latestBlog {
-	height: 160em;
+	height: 177em;
 }
 
-.latestBlog__blog p:nth-child(3) {
-	font-size: 1em;
-}
 
-.latestBlog__blog p:nth-child(4) {
-	font-size: 1.3em;
+.latestBlog__blog h3 {
+	font-size: 2em;
+}
+	
+.latestBlog__blog p {
+	font-size: 1.5em;
 }
 
 .contact {
-	height: 63em;
+	height: 65em;
 }
 
 .contact__contacts li {
@@ -351,6 +368,10 @@ input[name ="field2"] {
 @media only screen and (max-width: 650px) {
 	nav ul li {
 		font-size: 1.8vw;
+	}
+
+	.latestBlog {
+		height: 160em;
 	}
 }
 
@@ -414,21 +435,12 @@ nav ul li{
 	font-size: 1.7vw;
 }
 
+.latestBlog {
+	height: 155em;
+}
 
 .quote {
 	height: 10em;
-}
-
-.latestBlog {
-	height: 141em;
-}
-
-.latestBlog__blog p:nth-child(3) {
-	font-size: 1em;
-}
-
-.latestBlog__blog p:nth-child(4) {
-	font-size: 1.3em;
 }
 
 .contact {
@@ -491,6 +503,25 @@ textarea {
 
 }
 
+@media only screen and (max-width: 472px) {
+
+.latestBlog {
+	height: 125em;
+}
+
+.latestBlog__blog h3 {
+	font-size: 1.5em;
+}
+	
+.latestBlog__blog p {
+	font-size: 1.3em;
+}
+
+.footer {
+	height: 66em;
+}
+
+}
 
 @media only screen and (max-width: 360px) {
 
@@ -521,6 +552,9 @@ nav ul li{
     font-size: 3vw;
  }
 
+ .latestBlog {
+	height: 105em;
+}
 
 .about img {
 	width: 50%;
@@ -588,22 +622,16 @@ nav ul li{
 	
 }
 
-.latestBlog {
-	height: 86em;
-}
-
-.latestBlog__blog p:nth-child(4) {
-	padding-top: 2.3em;
-	font-size: 1em;
+.latestBlog__blog h3 {
+	font-size: 1.2em;
 }
 
 .latestBlog__blog p {
-	font-size: 1vw;
-	
+	font-size: 1em;
 }
 
 .contact {
-	height: 42em;
+	height: 45em;
 }
 
 .contact p {
@@ -661,12 +689,10 @@ nav ul li{
 }
 
 .latestBlog {
-	height: 76em;
+	height: 102em;
 }
 
-.contact {
-	height: 39.3em;
-}
+
 
 .footer {
 	height: 46em;
