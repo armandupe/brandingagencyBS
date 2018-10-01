@@ -8,6 +8,7 @@
 
 
 .container {
+	min-width: 320px;
     width: 100%;
     overflow-x: hidden;
 }
@@ -622,7 +623,7 @@ input[type ="submit"]:hover {
 
 .footer_copyright {
 	background: #000;
-	height: 4em;
+	height: 6em;
 	margin-top: -2em;
 	border-top: 3px solid #1E1E1E;
 	color: #fff;
