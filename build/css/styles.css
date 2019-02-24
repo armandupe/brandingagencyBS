@@ -59,7 +59,7 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-.header__container {
+.header__title {
   margin-top: 23%;
 }
 
@@ -70,20 +70,20 @@ nav ul li a:hover {
   font-family: 'Playfair Display', serif;
 }
 
-.header__h3 h3 {
+.header__h1 h1 {
   font-size: 1.8vw;
   font-weight: bold;
   text-align: center;
   letter-spacing: .2em;
 }
 
-.header__h1 h1 {
+.header__h2 h2 {
   margin-top: -25px;
   font-size: 4vw;
 }
 
-.header__h2 h2 {
-  margin-top: -35px;
+.header__h3 h3 {
+  margin-top: -25px;
   font-style: italic;
   font-size: 2.4vw;
 }
@@ -94,11 +94,13 @@ nav ul li a:hover {
 
 .about h2 {
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
-.about__p p {
-  font-size: 1.2em;
+.about p {
+  font-size: 1.8em;
+  line-height: 1.1;
+  margin-bottom: -0.1%;
 }
 
 .statistics {
