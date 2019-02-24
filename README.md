@@ -1,4 +1,4 @@
-# [BrandingAgency](https://armandupe.github.io/brandingagencyBS)
+# [BrandingAgency]
 
 ![preview](preview.jpg)
 
