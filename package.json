@@ -1,0 +1,22 @@
+{
+  "name": "brandingagencybs",
+  "version": "1.0.0",
+  "description": "gulp BS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armandupe/brandingagencyBS.git"
+  },
+  "author": "armandupe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armandupe/brandingagencyBS/issues"
+  },
+  "homepage": "https://github.com/armandupe/brandingagencyBS#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
