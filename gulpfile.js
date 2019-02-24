@@ -1,19 +1,23 @@
 // Подключаем Gulp
-var gulp = require("gulp"); 
+var gulp = require("gulp");
 
 // Подключаем плагины Gulp
 var sass = require("gulp-sass"), // переводит SASS в CSS
     cssnano = require("gulp-cssnano"), // Минимизация CSS
     autoprefixer = require('gulp-autoprefixer'), // Проставлет вендорные префиксы в CSS для поддержки старых браузеров
-    imagemin = require('gulp-imagemin'), // Сжатие изображений
+    imagemin = require('gulp-imagemin'), // Сжатие изображение
     concat = require("gulp-concat"), // Объединение файлов - конкатенация
     uglify = require("gulp-uglify"), // Минимизация javascript
     rename = require("gulp-rename"); // Переименование файлов
 
-   // Копирование файлов HTML в папку dist
+/* --------------------------------------------------------
+   ----------------- Таски ---------------------------
+------------------------------------------------------------ */
+
+// Копирование файлов HTML в папку build
 gulp.task("html", function() {
     return gulp.src("src/*.html")
-    .pipe(gulp.dest("dist"));
+    .pipe(gulp.dest("build"));
 });
 
 // Объединение, компиляция Sass в CSS, простановка венд. префиксов и дальнейшая минимизация кода
@@ -27,7 +31,7 @@ gulp.task("sass", function() {
          }))
         .pipe(cssnano())
         .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest("dist/css"));
+        .pipe(gulp.dest("build/css"));
 });
 
 // Объединение и сжатие JS-файлов
@@ -36,7 +40,7 @@ gulp.task("scripts", function() {
         .pipe(concat('scripts.js')) // объеденим все js-файлы в один 
         .pipe(uglify()) // вызов плагина uglify - сжатие кода
         .pipe(rename({ suffix: '.min' })) // вызов плагина rename - переименование файла с приставкой .min
-        .pipe(gulp.dest("dist/js")); // директория продакшена, т.е. куда сложить готовый файл
+        .pipe(gulp.dest("build/js")); // директория продакшена, т.е. куда сложить готовый файл
 });
 
 // Сжимаем картинки
@@ -47,18 +51,18 @@ gulp.task('imgs', function() {
             svgoPlugins: [{ removeViewBox: false }],
             interlaced: true
         }))
-        .pipe(gulp.dest("dist/images"))
+        .pipe(gulp.dest("build/images"))
 });
 
 // Задача слежения за измененными файлами
-gulp.task("watch", function() {
-    gulp.watch("src/*.html", ["html"]);
-    gulp.watch("src/js/*.js", ["scripts"]);
-    gulp.watch("src/sass/*.sass", ["sass"]);
-    gulp.watch("src/images/*.+(jpg|jpeg|png|gif)", ["imgs"]);
+gulp.task('watch', function() {
+    gulp.watch('src/*.html', gulp.parallel('html'));
+    gulp.watch('src/js/*.js', gulp.parallel('scripts'));
+    gulp.watch('src/sass/*.sass', gulp.parallel('sass'));
+    gulp.watch('src/images/*.+(jpg|jpeg|png|gif)', gulp.parallel('imgs'));
 });
 
-///// Таски ///////////////////////////////////////
 
 // Запуск тасков по умолчанию
-gulp.task("default", ["html", "sass", "scripts", "imgs", "watch"]);
+
+gulp.task('default', gulp.parallel('html', 'sass', 'scripts', 'imgs', 'watch'));
