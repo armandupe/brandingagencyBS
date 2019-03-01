@@ -22,7 +22,7 @@ gulp.task("html", function() {
 
 // Объединение, компиляция Sass в CSS, простановка венд. префиксов и дальнейшая минимизация кода
 gulp.task("sass", function() {
-    return gulp.src(['src/sass/styles.scss', 'src/sass/media.scss'])
+    return gulp.src(['src/sass/styles.scss', 'src/sass/variables.scss', 'src/sass/media.scss'])
         .pipe(concat('styles.scss'))
         .pipe(sass())
         .pipe(autoprefixer({
