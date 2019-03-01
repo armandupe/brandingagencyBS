@@ -22,7 +22,7 @@ gulp.task("html", function() {
 
 // Объединение, компиляция Sass в CSS, простановка венд. префиксов и дальнейшая минимизация кода
 gulp.task("sass", function() {
-    return gulp.src("src/sass/styles.scss")
+    return gulp.src(['src/sass/styles.scss', 'src/sass/media.scss'])
         .pipe(concat('styles.scss'))
         .pipe(sass())
         .pipe(autoprefixer({
@@ -33,21 +33,6 @@ gulp.task("sass", function() {
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest("build/css"));
 });
-
-gulp.task("sass", function() {
-    return gulp.src("src/sass/media.scss")
-        .pipe(concat('media.scss'))
-        .pipe(sass())
-        .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
-            cascade: false
-         }))
-        .pipe(cssnano())
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest("build/css"));
-});
-
-
 
 // Объединение и сжатие JS-файлов
 gulp.task("scripts", function() {
