@@ -1,7 +1,5 @@
-// Подключаем Gulp
 var gulp = require("gulp");
 
-// Подключаем плагины Gulp
 var sass = require("gulp-sass"), // переводит SASS в CSS
     cssnano = require("gulp-cssnano"), // Минимизация CSS
     autoprefixer = require('gulp-autoprefixer'), // Проставлет вендорные префиксы в CSS для поддержки старых браузеров
@@ -10,19 +8,17 @@ var sass = require("gulp-sass"), // переводит SASS в CSS
     uglify = require("gulp-uglify"), // Минимизация javascript
     rename = require("gulp-rename"); // Переименование файлов
 
-/* --------------------------------------------------------
-   ----------------- Таски ---------------------------
------------------------------------------------------------- */
 
-// Копирование файлов HTML в папку build
+
+
 gulp.task("html", function() {
     return gulp.src("src/*.html")
     .pipe(gulp.dest("build"));
 });
 
-// Объединение, компиляция Sass в CSS, простановка венд. префиксов и дальнейшая минимизация кода
+
 gulp.task("sass", function() {
-    return gulp.src(['src/sass/styles.scss', 'src/sass/variables.scss', 'src/sass/media.scss'])
+    return gulp.src(['src/sass/styles.scss', 'src/sass/media.scss'])
         .pipe(concat('styles.scss'))
         .pipe(sass())
         .pipe(autoprefixer({
@@ -34,7 +30,6 @@ gulp.task("sass", function() {
         .pipe(gulp.dest("build/css"));
 });
 
-// Объединение и сжатие JS-файлов
 gulp.task("scripts", function() {
     return gulp.src("src/js/*.js") // директория откуда брать исходники
         .pipe(concat('scripts.js')) // объеденим все js-файлы в один 
@@ -43,7 +38,6 @@ gulp.task("scripts", function() {
         .pipe(gulp.dest("build/js")); // директория продакшена, т.е. куда сложить готовый файл
 });
 
-// Сжимаем картинки
 gulp.task('imgs', function() {
     return gulp.src("src/images/*.+(jpg|jpeg|png|gif)")
         .pipe(imagemin({
@@ -54,7 +48,6 @@ gulp.task('imgs', function() {
         .pipe(gulp.dest("build/images"))
 });
 
-// Задача слежения за измененными файлами
 gulp.task('watch', function() {
     gulp.watch('src/*.html', gulp.parallel('html'));
     gulp.watch('src/js/*.js', gulp.parallel('scripts'));
@@ -63,6 +56,5 @@ gulp.task('watch', function() {
 });
 
 
-// Запуск тасков по умолчанию
 
 gulp.task('default', gulp.parallel('html', 'sass', 'scripts', 'imgs', 'watch'));

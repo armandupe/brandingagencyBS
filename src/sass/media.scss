@@ -1,46 +1,19 @@
-
 @media only screen and (max-width: 1600px) {
 
-
-
-.latestBlog {
-	height: 60em;
+ .latestBlog {
+ 	height: 60em;
 }
 
-
 }
-
-@media only screen and (max-width: 1500px) {
-
-.latestBlog {
-	height: 55em;
-}
-
-
-}
-
-@media only screen and (max-width: 1440px) {
-
-.latestBlog {
-	height: 56em;
-}
-
-
-}
-
-
-
 
 @media only screen and (max-width: 1300px) {
-
-
 
 .quote {
 	height: 17em;
 }
 
 .latestBlog {
-	height: 53em;
+	height: 55em;
 }
 
 input[name ="field1"] {
@@ -51,12 +24,11 @@ input[name ="field2"] {
 	width: 33.9%;
 }
 
-.footer p {
-	font-size: 1.2em;
-}
-
 .footer {
-	height: 26em;
+	height: 28em;
+	p {
+		font-size: 1.2em;
+	}
 }
 
 }
@@ -67,68 +39,33 @@ nav ul li {
 	padding-right: 10px;
 }
 
-.latestBlog {
-	height: 49em;
-}
-
-
 }
 
 @media only screen and (max-width: 1223px) {
-
 
 .contact__contacts li {
 	font-size: 1.6em;
 }
 
-
 }
 
 @media only screen and (max-width: 1199px) {
 
-
-
-// .header__logo img {
-// 	max-width: 60%;
-// 	margin-top: 1.6em;
-// }
-
- nav ul li{
- 	margin-top: 35px;
- }
-
-.latestBlog {
-	height: 48em;
-}
-
-.latestBlog__blog h3 {
-	font-size: 1.4em;
-}
-
-.latestBlog__blog p {
-	font-size: 1em;
-}
-
-.footer {
-	height: 31em;
-}
-
-}
-
-
-@media only screen and (min-width: 1100px) and (max-width: 1137px) {
-
-.latestBlog {
-	height: 49em;
-}
-
+.latestBlog__blog {
+	h3 {
+		font-size: 1.4em;
+	}
+	p {
+		font-size: 1em;
+	}
+} 
 
 }
 
 @media only screen and (max-width: 1100px) {
 
 .latestBlog {
-	height: 49em;
+	height: 50em;
 }
 
 }
@@ -139,15 +76,12 @@ nav ul li {
 	height: 15em;
 }
 
-.latestBlog__blog h3 {
-	font-size: 1.2em;
-	padding-top: 3%;
-}
-
-
-
-.contact {
-	height: 35em;
+.latestBlog {
+	height: 51em;
+	h3 {
+		font-size: 1.2em;
+		padding-top: 3%;
+	}
 }
 
 .contact__contacts li {
@@ -158,40 +92,37 @@ nav ul li {
 	font-size: 1.1em;
 }
 
+.footer__twits p::before {
+	width: 50%;
+	height: 20px;
+	left: -4.5em;
+}
+
 }
 
 @media only screen and (max-width: 991px) {
 
-.footer__twits p::before {
-	width: 100%;
-	height: 30px;
-	left: -9.5em;
+.contact h2 {
+		font-size: 3.2em;
 }
 
 }
 
 @media only screen and (max-width: 900px) {
-	.header__h1 h1 {
-		font-size: 2em;
-	 }
+.header__h1 h1 {
+	font-size: 2em;
+ }
 	
-	.header__h2 h2 {
-		font-size: 3.5em;
-	 }
+.header__h2 h2 {
+	font-size: 3.5em;
+ }
 	
-	.header__h3 h3 {
-		font-size: 2em;
-	 }
+.header__h3 h3 {
+	font-size: 2em;
+ }
 	
-
 .quote {
 	height: 13em;
-}
-
-
-
-.contact {
-	height: 37em;
 }
 
 .contact__contacts li {
@@ -200,14 +131,12 @@ nav ul li {
 
 .footer {
 	height: 21em;
-}
-
-.footer h3 {
-	font-size: 2em;
-}
-
-.footer p {
-	font-size: .9em;
+	h3 {
+		font-size: 2em;
+	}
+	p {
+		font-size: .9em;
+	}
 }
 
 }
@@ -215,15 +144,15 @@ nav ul li {
 @media only screen and (max-width: 866px) {
 
 
-.latestBlog__blog h3 {
-	font-size: 1em;
-}
+.latestBlog__blog {
+	h3 {
+		font-size: 1em;
+	}
+	p {
+		font-size: .8em;
+	}
+} 
 	
-.latestBlog__blog p {
-	font-size: .8em;
-}
-
-
 input[name ="field1"] {
 	width: 33.2%;
 	margin-right: .5em;
@@ -238,28 +167,28 @@ input[name ="field2"] {
 @media only screen and (max-width: 862px) {
 
 .statistics {
-	font-size: 0.82vw;
+	font-size: 0.9vw;
 	height: 13em;
 }
 
 .latestBlog {
-	height: 42em;
+	height: 46em;
 }
 
 }
 
 @media only screen and (max-width: 800px) {
-	.header__h1 h1 {
-		font-size: 2em;
-	 }
+.header__h1 h1 {
+	font-size: 2em;
+ }
 	
-	.header__h2 h2 {
-		font-size: 3em;
-	 }
+.header__h2 h2 {
+	font-size: 3em;
+ }
 	
-	.header__h3 h3 {
-		font-size: 2em;
-	 }
+.header__h3 h3 {
+	font-size: 2em;
+}
 
 .contact__contacts li {
 	font-size: 1.1em;
@@ -270,10 +199,16 @@ input[name ="field2"] {
 
 @media only screen and (max-width: 768px) {
 
-
-
 .quote {
-	height: 11em;
+	height: 13em;
+}
+
+.quote p:nth-child(1) {
+	font-size: 2.6vw;
+}
+
+.quote p:nth-child(2) {
+	font-size: 1.6vw;
 }
 
 .contact__contacts li {
@@ -281,9 +216,10 @@ input[name ="field2"] {
 }
 
 .footer__twits p::before {
-	background-size: 20px 20px;
-	left: -9.4em;
-	margin-top: -3%;
+	width: 30px;
+	height: 15px;
+	margin-top: -15px;
+	left: 5.3em;
 }
 
 .footer__socials {
@@ -294,12 +230,21 @@ input[name ="field2"] {
 
 @media only screen and (max-width: 767px) {
 
+.header__logo img {
+	margin-top: 1.5em;
+}
+
+nav {
+	margin-left: -200px;
+}
 
 
 .statistics {
 	height: 23em;
 	font-size: 1em;
 }
+
+.statistics > .col-lg-12 {margin-left: 0;}
 
 .bestproj__img-name1,
 .bestproj__img-name2,
@@ -313,7 +258,17 @@ input[name ="field2"] {
 	top: 40%;
 }
 
-
+.bestproj__img-name1 h3,
+.bestproj__img-name2 h3,
+.bestproj__img-name3 h3,
+.bestproj__img-name4 h3,
+.bestproj__img-name5 h3,
+.bestproj__img-name6 h3,
+.bestproj__img-name7 h3,
+.bestproj__img-name8 h3,
+.bestproj__img-name9 h3 {
+	font-size: 6vw;
+}
 
 .bestproj__img-name1 p,
 .bestproj__img-name2 p,
@@ -324,24 +279,25 @@ input[name ="field2"] {
 .bestproj__img-name7 p,
 .bestproj__img-name8 p,
 .bestproj__img-name9 p {
-	font-size: 1.6vw;
+	font-size: 4vw;
 }
 
 .latestBlog {
-	height: 177em;
-}
+	height: 181em;
+ }
 
 
-.latestBlog__blog h3 {
+.latestBlog__blog {
+h3 {
 	font-size: 2em;
 }
-	
-.latestBlog__blog p {
+p {
 	font-size: 1.5em;
 }
+} 
 
 .contact {
-	height: 65em;
+	height: 66em;
 }
 
 .contact__contacts li {
@@ -349,16 +305,36 @@ input[name ="field2"] {
 	margin-left: .1em;
 }
 
+form {
+	padding-top: 1em;
+	left: -1em;
+}
+
+input[name ="field1"] {
+	width: 48.5%;
+	margin-right: .5em;
+}
+
+input[name ="field2"] {
+	width: 48.5%;
+}
+
+input[name ="field3"] {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
 .footer {
 	height: 81em;
-}
-
-.footer h3 {
-	font-size: 5vw;
-}
-
-.footer p {
-	font-size: 3vw;
+	h3 {
+		font-size: 5vw;
+	}
+	p {
+		font-size: 3vw;
+	}
 }
 
 .footer__twits p {
@@ -368,7 +344,6 @@ input[name ="field2"] {
 .footer__twits p::before {
 	height: 68px;
 }
-
 
 .footer__socials ul li{
 	width: 14%;
@@ -381,96 +356,78 @@ input[name ="field2"] {
 
 }
 
+@media only screen and (max-width: 705px) {
+
+nav ul li {padding-right: 3px;}
+
+input[name ="field1"] {
+	width: 45.5%;
+	margin-right: .5em;
+}
+
+input[name ="field2"] {
+	width: 45.5%;
+}
+	
+input[name ="field3"] {
+	width: 94%;
+}
+	
+textarea {
+	width: 94%;
+}
+}
+
+
 @media only screen and (max-width: 698px) {
-	nav ul li {padding-right: 3px;}
 
-	.header__h1 h1 {
-		font-size: 1.7em;
-	 }
-	
-	.header__h2 h2 {
-		font-size: 2.5em;
-	 }
-	
-	
+.header__h1 h1 {
+	font-size: 1.7em;
+ }
 
+.header__h2 h2 {
+	font-size: 2.5em;
+}
+	
 }
 
 @media only screen and (max-width: 650px) {
-	
+.header__logo img {
+	margin-top: 1.8em;
+	margin-left: -6em;
+}
 
-	nav ul li {
-		font-size: 2vw;
-	}
+nav ul li {
+	font-size: 2vw;
+}
 
-	.latestBlog {
-		height: 160em;
-	}
+.latestBlog {
+	height: 163em;
+}
 }
 
 @media only screen and (max-width: 600px) {
 
-	.header__h1 h1 {
-		font-size: 1.5em;
-	 }
+.header__h1 h1 {
+	font-size: 1.5em;
+}
 	
-	.header__h2 h2 {
-		font-size: 2.2em;
-	 }
+.header__h2 h2 {
+	font-size: 2.2em;
+ }
 
-	 .header__h3 h3 {
-		font-size: 1.6em;
-	 }
-
-
+ .header__h3 h3 {
+	font-size: 1.6em;
+ }
 
 .statistics {
-	font-size: 2vw;
+	font-size: 2.5vw;
 	height: 24em;
 }
 
-
 .bestProjects h2 {
 	padding-top: 0;
-	font-size: 5vw;
-}
-
-
-.bestproj__img-name1,
-.bestproj__img-name2,
-.bestproj__img-name3,
-.bestproj__img-name4,
-.bestproj__img-name5,
-.bestproj__img-name6,
-.bestproj__img-name7,
-.bestproj__img-name8,
-.bestproj__img-name9 {
-	top: 40%;
 	
-}
-
-.bestproj__img-name1 h3,
-.bestproj__img-name2 h3,
-.bestproj__img-name3 h3,
-.bestproj__img-name4 h3,
-.bestproj__img-name5 h3,
-.bestproj__img-name6 h3,
-.bestproj__img-name7 h3,
-.bestproj__img-name8 h3,
-.bestproj__img-name9 h3 {
-	font-size: 2.8vw;
-}
-
-.bestproj__img-name1 p,
-.bestproj__img-name2 p,
-.bestproj__img-name3 p,
-.bestproj__img-name4 p,
-.bestproj__img-name5 p,
-.bestproj__img-name6 p,
-.bestproj__img-name7 p,
-.bestproj__img-name8 p,
-.bestproj__img-name9 p {
-	font-size: 1.7vw;
 }
 
 .latestBlog {
@@ -482,46 +439,26 @@ input[name ="field2"] {
 }
 
 .contact {
-	height: 56em;
+	height: 60em;
 }
 
 .contact__contacts li {
 	font-size: 3vw;
-	margin-left: 1%
 }
 
 form {
-	margin-top: -10%;
-	font-size: 2.8vw;
-}
-
-input[name ="field1"] {
-	width: 44.1%;
-	margin-right: .5em;
-}
-
-input[name ="field2"] {
-	width: 44.1%;
-}
-
-input[name ="field3"] {
-	width: 90%;
-}
-
-textarea {
-	width: 90%;
+	margin-top: -5%;
+	
 }
 
 .footer {
 	height: 72.5em;
-}
-
-.footer h3 {
-	font-size: 6vw;
-}
-
-.footer p {
-	font-size: 3.3vw;
+	h3 {
+		font-size: 6vw;
+	}
+	p {
+		font-size: 3.3vw;
+	}
 }
 
 .footer__twits p {
@@ -529,20 +466,51 @@ textarea {
 }
 
 .footer__twits p::before {
-	height: 60px;
-	left: -9.5em;
+	width: 40px;
+	height: 30px;
+	margin-top: 0;
+	left: 3em;
 }
 
 .instagram_container {
 	padding-bottom: 2em;
 }
 
+}
 
+@media only screen and (max-width: 530px) {
 
+nav ul li {
+	font-size: .8em;
+	}
+
+.quote p:nth-child(1) {
+	font-size: 3vw;
+}
+
+.quote p:nth-child(2) {
+	font-size: 2vw;
+}
+
+.contact {
+	height: 56em;
+}
+
+form {font-size: 3.3vw;}
+
+input[name ="field1"] {
+	width: 45.3%;
+	margin-right: .5em;
+}
+	
+input[name ="field2"] {
+	width: 45.3%;
+}
+	
+	
 }
 
 @media only screen and (max-width: 498px) {
-
 
 
 .header__h1 h1 {
@@ -556,74 +524,60 @@ textarea {
  .header__h3 h3 {
 	font-size: 1.4em;
  }
+
+ .footer__twits p::before {
+	width: 20px;
+	margin-top: -7px;
+}
+
 }
 
 @media only screen and (max-width: 472px) {
 
 .latestBlog {
-	height: 125em;
+	height: 134em;
 }
 
-.latestBlog__blog h3 {
-	font-size: 1.5em;
-}
+.latestBlog__blog {
+	h3 {
+		font-size: 1.5em;
+	}
+	p {
+		font-size: 1.3em;
+	}
+} 
 	
-.latestBlog__blog p {
-	font-size: 1.3em;
-}
-
 .footer {
 	height: 66em;
 }
 
 }
 
+@media only screen and (max-width: 440px) {
+	
+.quote p:nth-child(1) {
+	font-size: 3.3vw;
+}
+	
+.quote p:nth-child(2) {
+	font-size: 2.2vw;
+}
+}
+
 @media only screen and (max-width: 406px) {
-	nav ul li {padding-right: 3px;}
-	.header__h1 h1 {
-		font-size: 1em;
-	 }
+
+nav ul li {padding-right: 3px;}
+
+.header__h1 h1 {
+	font-size: 1em;
+ }
 	
-	.header__h2 h2 {
-		font-size: 1.3em;
-	 }
+.header__h2 h2 {
+	font-size: 1.3em;
+ }
 	
-	 .header__h3 h3 {
-		font-size: 1em;
-	 }
-
-   }
-
-@media only screen and (max-width: 360px) {
-	
-// .header__logo img {
-// 	margin-top: 1em;
-// 	max-width: 100%;
-// 	height: auto;
-// }
-
-nav ul li{
-	// top: 7px;
-	// padding-right: 1%;
-	position: relative;
-}
-
-
-
-
-
- .latestBlog {
-	height: 105em;
-}
-
-.about img {
-	width: 50%;
-}
-
-.statistics {
-	height: 25em;
-	font-size: 2vw;
-
+ .header__h3 h3 {
+	font-size: 1em;
 }
 
 .bestproj__img-name1,
@@ -635,39 +589,51 @@ nav ul li{
 .bestproj__img-name7,
 .bestproj__img-name8,
 .bestproj__img-name9 {
-	position: absolute;
+	top: 55%;
+}
+
+.footer__twits p::before {
+	width: 20px;
+	margin-top: -8px;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+	
+nav ul li{
+	position: relative;
+}
+
+.latestBlog {
+	height: 112em;
+}
+
+.about img {
+	width: 50%;
+}
+
+.statistics {
+	height: 25em;
+}
+
+
+.bestproj__img-name1,
+.bestproj__img-name2,
+.bestproj__img-name3,
+.bestproj__img-name4,
+.bestproj__img-name5,
+.bestproj__img-name6,
+.bestproj__img-name7,
+.bestproj__img-name8,
+.bestproj__img-name9 {
 	width: 100%;
-	top: 35%;
+	top: 40%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	    -ms-transform: translate(-50%, -50%);
 	        transform: translate(-50%, -50%);
 }
-
-.bestproj__img-name1 h3,
-.bestproj__img-name2 h3,
-.bestproj__img-name3 h3,
-.bestproj__img-name4 h3,
-.bestproj__img-name5 h3,
-.bestproj__img-name6 h3,
-.bestproj__img-name7 h3,
-.bestproj__img-name8 h3,
-.bestproj__img-name9 h3 {
-	font-size: 2.2vw;
-}
-
-.bestproj__img-name1 p,
-.bestproj__img-name2 p,
-.bestproj__img-name3 p,
-.bestproj__img-name4 p,
-.bestproj__img-name5 p,
-.bestproj__img-name6 p,
-.bestproj__img-name7 p,
-.bestproj__img-name8 p,
-.bestproj__img-name9 p {
-	font-size: 1.6vw;
-}
-
 
 .quote {
 	height: 8em;
@@ -678,24 +644,24 @@ nav ul li{
 }
 
 .quote p:nth-child(2) {
-	font-size: 1.7vw;
+	font-size: 2vw;
 	
 }
 
-.latestBlog__blog h3 {
-	font-size: 1.2em;
-}
-
-.latestBlog__blog p {
-	font-size: 1em;
-}
+.latestBlog__blog {
+	h3 {
+		font-size: 1.2em;
+	}
+	p {
+		font-size: 1em;
+	}
+} 
 
 .contact {
 	height: 45em;
-}
-
-.contact p {
-	font-size: 3.5vw;
+	p {
+		font-size: 3.5vw;
+	}
 }
 
 .contact__contacts {
@@ -724,11 +690,6 @@ textarea {
 	height: 50em;
 }
 
-.footer__twits p::before {
-	left: -10em;
-}
-
-
 .footer__socials {
 	margin-bottom: -15%;	
 }
@@ -737,22 +698,17 @@ textarea {
 	margin-bottom: -15%;
 }
 
-
 }
 
 @media only screen and (max-width: 320px) {
 
-
 nav ul li{
-	// padding-right: 1%;
 	font-size: 1.7vw;
 }
 
 .latestBlog {
-	height: 102em;
+	height: 113em;
 }
-
-
 
 .footer {
 	height: 46em;
