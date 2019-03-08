@@ -235,7 +235,7 @@ input[name ="field2"] {
 }
 
 nav {
-	margin-left: -200px;
+	margin-left: -60%;
 }
 
 
@@ -566,7 +566,11 @@ input[name ="field2"] {
 
 @media only screen and (max-width: 406px) {
 
-nav ul li {padding-right: 3px;}
+nav {margin-left: -70%;}
+
+nav ul li {
+	padding-right: 3px;
+}
 
 .header__h1 h1 {
 	font-size: 1em;
@@ -603,6 +607,7 @@ nav ul li {padding-right: 3px;}
 	
 nav ul li{
 	position: relative;
+	nav ul li {padding-right: 1px;}
 }
 
 .latestBlog {
@@ -700,11 +705,15 @@ textarea {
 
 }
 
+@media only screen and (max-width: 346px) {
+	nav ul li{
+		font-size: 2.7vw;
+	}
+}
+
 @media only screen and (max-width: 320px) {
 
-nav ul li{
-	font-size: 1.7vw;
-}
+
 
 .latestBlog {
 	height: 113em;
